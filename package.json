@@ -1,0 +1,14 @@
+{
+  "name": "nuxt-bus",
+  "version": "0.9.0",
+  "description": "Event Bus for Nuxt 3",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Will be added ...\" && exit 1"
+  },
+  "author": "Foad Nikoukar <foad.nikoukar@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "nuxt-bus": "^0.9.0"
+  }
+}
