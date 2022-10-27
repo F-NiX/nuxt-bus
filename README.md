@@ -27,6 +27,7 @@ this.$bus.emit('event', eventData)
 ```
 
 You can get all handlers of all types set in project `.all`
+
 And you can use `.off` method to stop listening to an event, or just a specific handler in it
 
 ``` js
