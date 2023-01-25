@@ -4,6 +4,8 @@
 
 Event Bus for Nuxt.JS v3
 
+> dist: less than 300 bytes!
+
 ## Install
 
 ``` bash
@@ -37,4 +39,12 @@ this.$bus.off('event')
 //
 this.$bus.on('event', handler)
 this.$bus.off('event', handler)
+```
+
+Note: `this` is available inside vue option methods, if you are using `<script setup>` mode, you may need `useNuxtApp` to get `$bus`:
+
+```js
+const { $bus } = useNuxtApp()
+// $bus.on ...
+// $bus.emit ...
 ```
